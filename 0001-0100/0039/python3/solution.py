@@ -28,26 +28,26 @@ class Solution:
         else:
             print('case 1 failed')
 
-        print('case 2')
-        if self.combinationSum([2,3,6,7], 7) == [[2,2,3],[7]]:
+        print('case 2 - Input: candidates = [2,3,5], target = 8 Output: [[2,2,2,2],[2,3,3],[3,5]]')
+        if self.combinationSum([2,3,5], 8) == [[2,2,2,2],[2,3,3],[3,5]]:
             print('case 2 passed')
         else:
             print('case 2 failed')
 
-        print('case 3')
-        if self.combinationSum([2,3,6,7], 7) == [[2,2,3],[7]]:
+        print('case 3 - Input: candidates = [2], target = 1 Output: []')
+        if self.combinationSum([2], 1) == []:
             print('case 3 passed')
         else:
-            print('case 4 failed')
+            print('case 3 failed')
 
-        print('case 4')
-        if self.combinationSum([2,3,6,7], 7) == [[2,2,3],[7]]:
+        print('case 4 - Input: candidates = [1], target = 1 Output: [[1]]')
+        if self.combinationSum([1], 1) == [[1]]:
             print('case 4 passed')
         else:
             print('case 4 failed')
 
-        print('case 5')
-        if self.combinationSum([2,3,6,7], 7) == [[2,2,3],[7]]:
+        print('case 5 - Input: candidates = [1], target = 2 Output: [[1,1]]')
+        if self.combinationSum([1], 2) == [[1,1]]:
             print('case 5 passed')
         else:
             print('case 5 failed')
