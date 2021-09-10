@@ -46,5 +46,12 @@ class Solution:
             print('case 4 failed')
             print(self.minSessions([8,8,8,8], 10))
 
+        print('case 5 - Input: tasks = [1,5,7,10,3,8,4,2,6,2], sessionTime = 10 Output: 5')
+        if self.minSessions([1,5,7,10,3,8,4,2,6,2], 10) == 5:
+            print('case 5 passed')
+        else:
+            print('case 5 failed')
+            print(self.minSessions([8,8,8,8], 10))
+
 if __name__ == '__main__':
     Solution().main()
